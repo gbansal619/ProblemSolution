@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <classes>
+		  <class name="testcases.WebsiteUrlNavigationWorkflow">
+			  <methods>
+				  <include name="Testcase_SuccessfulNavigation"></include>
+				  <include name="TestCase_IncorrectUrlNavigation"></include>
+				  <include name="TestCase_PartialUrlNavigation"></include>
+				  <include name="TestCase_InvalidUrlNavigation"></include>
+			  </methods>
+		  </class>
+		  
+		  <class name="testcases.SearchFunctioanlityWorkflows">
+			  <parameter name="serachString" value="Dynamics"></parameter>
+			  <methods>
+				  <include name="VerifySearchKeywordisAvailable"></include>
+				  <include name="SearchResultsDisplayedForKeyword"></include>
+				  <include name="VerifyAllSearchResultsDisplayedForKeyword"></include>
+				  <include name="SearchResultsWithInvalidKeyword"></include>
+				  <include name="SearchResultsWithEmptyKeyword"></include>
+			  </methods>
+		  </class>
+		  <class name="testcases.SearchResultNavigationWorkflows">
+			  <methods>
+				  <include name="Open_SearchResult"></include>
+				  <include name="SearchResults_Navigations"></include>
+				  <include name="Open_AllSearchResults_ForKeyword"></include>
+				  <include name="Verify_AllSearchResults_ForKeyword"></include>
+			  </methods>
+		  </class>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

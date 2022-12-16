@@ -1,0 +1,35 @@
+Workflows To Automate
+User can successfully navigate to the site
+User can successfully search for keywords
+User can successfully open returned search results
+
+Assumption :
+Testing in chrome browser only
+Data parameter is optional
+Use of static data
+Testcase written as Test methods 
+
+Workflow WebsiteUrlNavigationWorkflow(User can successfully navigate to the site)
+Tescases covered
+1. Sucessful navigation with correct url
+2. Unsucessful navigation with invalid url
+3. Successful navigation to incorrect url which is not matched with correct url
+4. Unsucessful navigation with partial url
+
+Workflow SearchFunctioanlityWorkflows (User can successfully search for keywords)
+Testcases covered 
+1. search keyword text is available or not
+2. search with valid keyword like Dynamic 365 and search results is displayed 
+3. search results are displayed as per search keyword
+4. Search displayed error when searched with special character like $@t
+5. Search with empty keyword and result should display
+
+Workflow SearchResultNavigationWorkflows (User can successfully open returned search results)
+Testcases covered
+1. first Search result link opened and validated sucessfully
+2. Validate application does not store previous page and display same page for next search result
+3. Validate all search results get opened or not
+4. validate all search results opened with their respective page only.
+ 
+ 
+ 

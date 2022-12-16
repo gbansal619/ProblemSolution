@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 16 23:07:31 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>187 seconds (187954 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.SearchResultNavigationWorkflows.Open_AllSearchResults_ForKeyword()'><b>Open_AllSearchResults_ForKeyword</b><br>Test class: testcases.SearchResultNavigationWorkflows<br>Test method: Validate all search results get opened or not</td>
+<td></td>
+<td>34</td>
+<td>testcases.SearchResultNavigationWorkflows@59e505b2</td></tr>
+<tr>
+<td title='testcases.SearchResultNavigationWorkflows.Open_SearchResult()'><b>Open_SearchResult</b><br>Test class: testcases.SearchResultNavigationWorkflows<br>Test method: first Search result link opened and validated sucessfully</td>
+<td></td>
+<td>6</td>
+<td>testcases.SearchResultNavigationWorkflows@59e505b2</td></tr>
+<tr>
+<td title='testcases.SearchFunctioanlityWorkflows.SearchResultsDisplayedForKeyword()'><b>SearchResultsDisplayedForKeyword</b><br>Test class: testcases.SearchFunctioanlityWorkflows<br>Test method: search with valid keyword like Dynamic 365 and search results is displayed<br>Parameters: Dynamics</td>
+<td></td>
+<td>4</td>
+<td>testcases.SearchFunctioanlityWorkflows@82ea68c</td></tr>
+<tr>
+<td title='testcases.SearchFunctioanlityWorkflows.SearchResultsWithEmptyKeyword()'><b>SearchResultsWithEmptyKeyword</b><br>Test class: testcases.SearchFunctioanlityWorkflows<br>Test method: earch with empty keyword and result should display</td>
+<td></td>
+<td>4</td>
+<td>testcases.SearchFunctioanlityWorkflows@82ea68c</td></tr>
+<tr>
+<td title='testcases.SearchFunctioanlityWorkflows.SearchResultsWithInvalidKeyword()'><b>SearchResultsWithInvalidKeyword</b><br>Test class: testcases.SearchFunctioanlityWorkflows<br>Test method: Search displayed error when searched with special character like $@t</td>
+<td></td>
+<td>4</td>
+<td>testcases.SearchFunctioanlityWorkflows@82ea68c</td></tr>
+<tr>
+<td title='testcases.SearchResultNavigationWorkflows.SearchResults_Navigations()'><b>SearchResults_Navigations</b><br>Test class: testcases.SearchResultNavigationWorkflows<br>Test method: Validate application does not store previous page and display same page for next search result</td>
+<td></td>
+<td>8</td>
+<td>testcases.SearchResultNavigationWorkflows@59e505b2</td></tr>
+<tr>
+<td title='testcases.WebsiteUrlNavigationWorkflow.TestCase_IncorrectUrlNavigation()'><b>TestCase_IncorrectUrlNavigation</b><br>Test class: testcases.WebsiteUrlNavigationWorkflow<br>Test method: Successful navigation to incorrect url which is not matched with correct url</td>
+<td></td>
+<td>14</td>
+<td>testcases.WebsiteUrlNavigationWorkflow@1115ec15</td></tr>
+<tr>
+<td title='testcases.WebsiteUrlNavigationWorkflow.TestCase_InvalidUrlNavigation()'><b>TestCase_InvalidUrlNavigation</b><br>Test class: testcases.WebsiteUrlNavigationWorkflow<br>Test method: Unsucessful navigation with invalid url</td>
+<td></td>
+<td>0</td>
+<td>testcases.WebsiteUrlNavigationWorkflow@1115ec15</td></tr>
+<tr>
+<td title='testcases.WebsiteUrlNavigationWorkflow.TestCase_PartialUrlNavigation()'><b>TestCase_PartialUrlNavigation</b><br>Test class: testcases.WebsiteUrlNavigationWorkflow<br>Test method: Unsucessful navigation with partial url</td>
+<td></td>
+<td>0</td>
+<td>testcases.WebsiteUrlNavigationWorkflow@1115ec15</td></tr>
+<tr>
+<td title='testcases.WebsiteUrlNavigationWorkflow.Testcase_SuccessfulNavigation()'><b>Testcase_SuccessfulNavigation</b><br>Test class: testcases.WebsiteUrlNavigationWorkflow<br>Test method: Sucessful navigation with correct url</td>
+<td></td>
+<td>3</td>
+<td>testcases.WebsiteUrlNavigationWorkflow@1115ec15</td></tr>
+<tr>
+<td title='testcases.SearchFunctioanlityWorkflows.VerifyAllSearchResultsDisplayedForKeyword()'><b>VerifyAllSearchResultsDisplayedForKeyword</b><br>Test class: testcases.SearchFunctioanlityWorkflows<br>Test method: search results are displayed as per search keyword</td>
+<td></td>
+<td>4</td>
+<td>testcases.SearchFunctioanlityWorkflows@82ea68c</td></tr>
+<tr>
+<td title='testcases.SearchFunctioanlityWorkflows.VerifySearchKeywordisAvailable()'><b>VerifySearchKeywordisAvailable</b><br>Test class: testcases.SearchFunctioanlityWorkflows<br>Test method: search keyword text is available or not</td>
+<td></td>
+<td>3</td>
+<td>testcases.SearchFunctioanlityWorkflows@82ea68c</td></tr>
+<tr>
+<td title='testcases.SearchResultNavigationWorkflows.Verify_AllSearchResults_ForKeyword()'><b>Verify_AllSearchResults_ForKeyword</b><br>Test class: testcases.SearchResultNavigationWorkflows<br>Test method: validate all search results opened with their respective page only</td>
+<td></td>
+<td>35</td>
+<td>testcases.SearchResultNavigationWorkflows@59e505b2</td></tr>
+</table><p>
+</body>
+</html>

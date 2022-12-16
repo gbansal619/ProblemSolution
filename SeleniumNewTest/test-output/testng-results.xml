@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-16T17:37:31Z" name="Suite" finished-at="2022-12-16T17:40:39Z" duration-ms="187954">
+    <groups>
+    </groups>
+    <test started-at="2022-12-16T17:37:31Z" name="Test" finished-at="2022-12-16T17:40:39Z" duration-ms="187954">
+      <class name="testcases.SearchResultNavigationWorkflows">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:07:57Z" name="beforeMethod" finished-at="2022-12-16T23:07:58Z" duration-ms="996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Open_SearchResult()[pri:0, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:07:58Z" name="Open_SearchResult" description="first Search result link opened and validated sucessfully" finished-at="2022-12-16T23:08:04Z" duration-ms="6690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_SearchResult -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:08:04Z" name="afterMethod" finished-at="2022-12-16T23:08:04Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:08:04Z" name="beforeMethod" finished-at="2022-12-16T23:08:05Z" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SearchResults_Navigations()[pri:0, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:08:05Z" name="SearchResults_Navigations" description="Validate application does not store previous page and display same page for next search result" finished-at="2022-12-16T23:08:14Z" duration-ms="8417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchResults_Navigations -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:08:14Z" name="afterMethod" finished-at="2022-12-16T23:08:14Z" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:08:42Z" name="beforeMethod" finished-at="2022-12-16T23:08:43Z" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Open_AllSearchResults_ForKeyword()[pri:2, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:08:43Z" name="Open_AllSearchResults_ForKeyword" description="Validate all search results get opened or not" finished-at="2022-12-16T23:09:17Z" duration-ms="34060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_AllSearchResults_ForKeyword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:09:17Z" name="afterMethod" finished-at="2022-12-16T23:09:34Z" duration-ms="16188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:09:41Z" name="beforeMethod" finished-at="2022-12-16T23:09:42Z" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Verify_AllSearchResults_ForKeyword()[pri:3, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:09:42Z" name="Verify_AllSearchResults_ForKeyword" description="validate all search results opened with their respective page only" finished-at="2022-12-16T23:10:17Z" duration-ms="35265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AllSearchResults_ForKeyword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:10:17Z" name="afterMethod" finished-at="2022-12-16T23:10:33Z" duration-ms="16207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.SearchResultNavigationWorkflows -->
+      <class name="testcases.WebsiteUrlNavigationWorkflow">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:07:31Z" name="beforeMethod" finished-at="2022-12-16T23:07:32Z" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Testcase_SuccessfulNavigation()[pri:0, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:07:32Z" name="Testcase_SuccessfulNavigation" description="Sucessful navigation with correct url" finished-at="2022-12-16T23:07:36Z" duration-ms="3961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_SuccessfulNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:07:36Z" name="afterMethod" finished-at="2022-12-16T23:07:52Z" duration-ms="16226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:08:14Z" name="beforeMethod" finished-at="2022-12-16T23:08:15Z" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase_IncorrectUrlNavigation()[pri:1, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:08:15Z" name="TestCase_IncorrectUrlNavigation" description="Successful navigation to incorrect url which is not matched with correct url" finished-at="2022-12-16T23:08:29Z" duration-ms="14150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_IncorrectUrlNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:08:29Z" name="afterMethod" finished-at="2022-12-16T23:08:29Z" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:08:35Z" name="beforeMethod" finished-at="2022-12-16T23:08:36Z" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase_PartialUrlNavigation()[pri:2, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:08:36Z" name="TestCase_PartialUrlNavigation" description="Unsucessful navigation with partial url" finished-at="2022-12-16T23:08:37Z" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_PartialUrlNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:08:37Z" name="afterMethod" finished-at="2022-12-16T23:08:37Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:09:34Z" name="beforeMethod" finished-at="2022-12-16T23:09:34Z" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase_InvalidUrlNavigation()[pri:3, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:09:34Z" name="TestCase_InvalidUrlNavigation" description="Unsucessful navigation with invalid url" finished-at="2022-12-16T23:09:35Z" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_InvalidUrlNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:09:35Z" name="afterMethod" finished-at="2022-12-16T23:09:35Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.WebsiteUrlNavigationWorkflow -->
+      <class name="testcases.SearchFunctioanlityWorkflows">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:07:52Z" name="beforeMethod" finished-at="2022-12-16T23:07:53Z" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifySearchKeywordisAvailable()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:07:53Z" name="VerifySearchKeywordisAvailable" description="search keyword text is available or not" finished-at="2022-12-16T23:07:56Z" duration-ms="3201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchKeywordisAvailable -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:07:56Z" name="afterMethod" finished-at="2022-12-16T23:07:57Z" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:08:29Z" name="beforeMethod" finished-at="2022-12-16T23:08:30Z" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SearchResultsDisplayedForKeyword(java.lang.String)[pri:1, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:08:30Z" name="SearchResultsDisplayedForKeyword" description="search with valid keyword like Dynamic 365 and search results is displayed" finished-at="2022-12-16T23:08:35Z" duration-ms="4998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dynamics]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchResultsDisplayedForKeyword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:08:35Z" name="afterMethod" finished-at="2022-12-16T23:08:35Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:08:37Z" name="beforeMethod" finished-at="2022-12-16T23:08:38Z" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyAllSearchResultsDisplayedForKeyword()[pri:2, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:08:38Z" name="VerifyAllSearchResultsDisplayedForKeyword" description="search results are displayed as per search keyword" finished-at="2022-12-16T23:08:42Z" duration-ms="4007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllSearchResultsDisplayedForKeyword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:08:42Z" name="afterMethod" finished-at="2022-12-16T23:08:42Z" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:09:35Z" name="beforeMethod" finished-at="2022-12-16T23:09:36Z" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SearchResultsWithInvalidKeyword()[pri:3, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:09:36Z" name="SearchResultsWithInvalidKeyword" description="Search displayed error when searched with special character like $@t" finished-at="2022-12-16T23:09:41Z" duration-ms="4608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchResultsWithInvalidKeyword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:09:41Z" name="afterMethod" finished-at="2022-12-16T23:09:41Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:10:33Z" name="beforeMethod" finished-at="2022-12-16T23:10:34Z" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SearchResultsWithEmptyKeyword()[pri:4, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:10:34Z" name="SearchResultsWithEmptyKeyword" description="earch with empty keyword and result should display" finished-at="2022-12-16T23:10:39Z" duration-ms="4438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchResultsWithEmptyKeyword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:10:39Z" name="afterMethod" finished-at="2022-12-16T23:10:39Z" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.SearchFunctioanlityWorkflows@82ea68c]" started-at="2022-12-16T23:10:39Z" name="afterTest" finished-at="2022-12-16T23:10:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.WebsiteUrlNavigationWorkflow@1115ec15]" started-at="2022-12-16T23:10:39Z" name="afterTest" finished-at="2022-12-16T23:10:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.SearchResultNavigationWorkflows@59e505b2]" started-at="2022-12-16T23:10:39Z" name="afterTest" finished-at="2022-12-16T23:10:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.SearchFunctioanlityWorkflows -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
